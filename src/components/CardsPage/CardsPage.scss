@@ -1,9 +1,75 @@
 .CardsPage {
     background-color: rgb(186, 176, 196);
     border-radius: 6px;
-    padding: 0px;
-    width: 100%;
-    max-width: 100%;
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+    margin-right: 20px !important;
+    min-width: calc(100% - 30px);
+    max-width: calc(100% - 30px);
+    /* margin-left: 15px; */
     overflow-x: scroll;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    
+    &__quarterPercent {
+        min-width: 25%;
+    }
+
+    @media (max-width: 500px) {
+        background-color: rgb(186, 176, 196);
+        border-radius: 6px;
+        display: inline-flex;
+        flex-wrap: wrap;
+    
+        margin-right: 20px !important;
+        min-width: calc(100% - 30px);
+        max-width: calc(100% - 30px);
+        /* margin-left: 15px; */
+        overflow-x: scroll;
+        /* padding: 10px; */
+        /* margin: 10px; */
+    
+        &__quarterPercent {
+            min-width: 50%;
+        }
+      }
+
+      @media (max-width: 1000px) {
+        background-color: rgb(186, 176, 196);
+        border-radius: 6px;
+        display: inline-flex;
+        flex-wrap: wrap;
+    
+        margin-right: 20px !important;
+        min-width: calc(100% - 30px);
+        max-width: calc(100% - 30px);
+        /* margin-left: 15px; */
+        overflow-x: scroll;
+        /* padding: 10px; */
+        /* margin: 10px; */
+    
+        &__quarterPercent {
+            min-width: 25%;
+        }
+      }
+
+      @media (max-width: 2560px) {
+        background-color: rgb(186, 176, 196);
+        border-radius: 6px;
+        display: inline-flex;
+        flex-wrap: wrap;
+    
+        margin-right: 20px !important;
+        min-width: calc(100% - 30px);
+        max-width: calc(100% - 30px);
+        /* margin-left: 15px; */
+        overflow-x: scroll;
+        /* padding: 10px; */
+        /* margin: 10px; */
+    
+        &__quarterPercent {
+            min-width: 20%;
+        }
+      }
 }

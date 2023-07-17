@@ -16,7 +16,7 @@ const CardsPage = () => {
         <div className='CardsPage' key='CardPage'>
             {
                 cards.map(element => 
-                    <div key= {element.code}>
+                    <div className='CardsPage__quarterPercent' key= {element.code}>
                         <InfoCard element={element} keyString={element.code + element.name}></InfoCard>
                     </div>
                 )
