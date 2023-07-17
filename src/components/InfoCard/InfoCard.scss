@@ -1,0 +1,79 @@
+.InfoCard {
+    background-color: #f3ecec;
+    width: 250px;
+    height: 320px;
+    border-radius: 10px;
+    box-shadow: -2.5px -2.5px 8px 2px #867f7f;
+    margin: 15px;
+    text-align: center;
+
+    &__header{
+        background-color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        max-height: 50px;
+        min-height: 50px;
+        padding-top: 15px;
+    }
+
+    &__body{
+        max-height: 205px;
+        min-height: 205px;
+    }
+
+    &__footer{
+        max-height: 50px;
+        min-height: 50px;
+    }
+
+    &__title{
+        
+        color: #272525;
+        font-size: 20px;
+        font-weight: 800;
+        //line-height: 100px;
+        vertical-align: bottom;
+    }
+
+    &__code{
+        color: #272525;
+        font-size: 11px;
+        font-weight: 400;
+        vertical-align: bottom;
+    }
+
+    &__description{
+        color: #272525;
+        font-size: 15px;
+        font-weight: 400;
+        margin: 10px;
+        vertical-align: bottom;
+    }
+
+    &__price{
+        background: #ebdfe3;
+        color: #272525;
+        font-size: 18px;
+        font-weight: 900;
+        padding: 20px;
+        vertical-align: bottom;
+    }
+
+    &__buttonAdd{
+        background-color: #57f0b5;
+        border: none;
+        border-radius: 6px;
+        font-weight: 600;
+        min-height: 37px;
+        min-width: 100px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    &__buttonAdd:hover {
+        background-color: #11eb97;
+        border: none;
+        box-shadow: 0px 0px 10px 1px #867f7f;   
+        color: #ffffff;
+        cursor: pointer;
+    }
+}
