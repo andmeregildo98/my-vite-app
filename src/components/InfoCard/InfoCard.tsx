@@ -11,7 +11,6 @@ const InfoCard = (props: InfoCardProps) => {
 
     const transformPriceFromNumber = (value: number): string => {
         const transformedWithCurrency = value % 2 ? transformPriceFromNumberCents(value) : transformPriceFromNumberExact(value);
-        console.log(value % 2 )
         return transformedWithCurrency;
     }
     
