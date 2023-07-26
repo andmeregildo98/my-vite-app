@@ -1,5 +1,45 @@
 .Home {
-    background-color: #878270;
+    background-color: #fdfcfa;
     width: 100%;
-    height: 769px;
+    //min-height: calc(100% - 56px);
+    height: 826px;
+    display: inline-flex;
+    
+
+    &__leftSide {
+        background-color: rgb(146, 74, 74);
+        border-radius: 3px;
+        margin: 10px;
+        overflow-y: auto;
+        width: 60%;
+    }
+
+    &__rightSide {
+        background-color: rgb(96, 96, 134);
+        border-radius: 3px;
+        margin: 10px;
+        overflow-y: auto;
+        right: 0px;
+        width: 40%;
+    }
+
+    &__row {
+        background-color: rgb(237, 237, 247);
+        border-radius: 3px;
+        width: auto;
+        margin: 10.5px;
+        min-height: 120px;
+        max-height: 120px;
+        padding: 20px;
+
+        &__name {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        &__image {
+            cursor: pointer;
+        }
+    }
+
 }

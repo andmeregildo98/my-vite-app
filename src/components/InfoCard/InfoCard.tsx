@@ -1,4 +1,3 @@
-import React from 'react'
 import './InfoCard.scss'
 import { IProduct } from '../../interfaces/IProduct'
 
