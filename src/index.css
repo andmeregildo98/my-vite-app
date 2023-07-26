@@ -1,7 +1,7 @@
 body {
   padding: 0rem 0rem 0rem 0rem !important;
-  margin: none !important;
-  width: 100%;
+  margin: 0 !important;
+  width: 100% !important;
 }
 
 :root {
@@ -9,8 +9,8 @@ body {
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(15, 15, 15, 0.87);
+  background-color: #fcfafa;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

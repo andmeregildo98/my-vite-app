@@ -6,21 +6,33 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import CardsPage from "./components/CardsPage/CardsPage";
+import Navbar from "./components/commons/Navbar/Navbar";
+import MenuList from "./pages/MenuList/MenuList";
+import Home from "./pages/Home/Home";
+import Register from "./pages/Register";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>
+    element: <div><Home /></div>
   },
   {
-    path: "/cards",
-    element: <CardsPage></CardsPage>
+    path: "/products",
+    element: <div><MenuList /></div>
+  },
+  {
+    path: "/create",
+    element: <div><Register /></div>
+  },
+  {
+    path: "/edit/:{id}",
+    element: <div><Register /></div>
   },
 ]);
 
 ReactDOM.createRoot(document!.getElementById("root")!).render(
   <React.StrictMode>
+    <Navbar />
     <RouterProvider router={router} />
   </React.StrictMode>
 );

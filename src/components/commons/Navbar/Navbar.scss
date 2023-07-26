@@ -1,6 +1,68 @@
 .Navbar {
+    align-self: center;
     background-color: black;
-    height: 40px;
+    height: 103px;
     width: 100%;
+    /* max-width: 100%; */
+    display: inline-flex;
+    justify-content: space-between;
+    margin-block: auto;
+    /* padding: 20px; */
+    text-decoration: none !important;
 
+    &__titleText {
+        color: #FFFFFF;
+        font-size: 20px;
+    }
+
+    a{
+        text-decoration: none !important;
+    }
+
+    a:hover {
+        // text-shadow: rgb(236, 216, 37) -0.6px -0.6px;
+        text-color: #7fffaa;
+    }
+
+    a:not(:first-child):not(:last-child) {
+        color: #FFFFFF;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    a:first-child {
+        color: violet;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    
+    a:last-child {
+        color: goldenrod;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    &__title {
+        align-self: center;
+        min-width: 20%;
+    }
+    
+    &__routes {
+        align-self: center;
+        text-align: right;
+        max-width: 70%;
+        min-width: 70%;
+        margin-right: 40px;
+    }
+
+    &__optionsButton {
+        cursor: pointer;
+        height: 100%;
+        text-align: center;
+        width: 40px;
+        padding-right: 20px;
+        /* min-width: 20%; */
+        writing-mode: vertical-lr;
+    }
 }

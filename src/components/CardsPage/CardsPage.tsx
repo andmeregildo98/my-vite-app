@@ -1,10 +1,7 @@
 import InfoCard from '../InfoCard/InfoCard'
-import React, {useState, useEffect} from "react"
+import {useState, useEffect} from "react"
 import './CardsPage.scss'
-import { IProduct } from '../../interfaces/IProduct'
 import { API } from '../../utils/api'
-import axios, { Axios } from 'axios'
-import { getProducts } from '../../utils/service'
 
 /* const cards: Array<IProduct> = [
     {code: '00001',description: 'This is a sample description of Card 01',name: 'Card number 01', price: 200.00},
